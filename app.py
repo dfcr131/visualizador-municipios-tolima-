@@ -993,6 +993,16 @@ with tabs[2]:
                     # — División pequeña e indentada entre resultados —
                     st.markdown(
                      """
+                     <style>
+                    /* Cambia el color del valor de st.metric a negro */
+                    div[data-testid="stMetricValue"] {
+                        color: black !important;
+                    }
+                    /* Cambia el color del label de st.metric a negro */
+                    div[data-testid="stMetricLabel"] {
+                        color: black !important;
+                    }
+                    </style>
                      <div style="
                      height:4px;  /* grosor */
                      background: linear-gradient(
