@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+folium
+streamlit-folium
+requests
+openpyxl
+numpy
+plotly
+pydeck
